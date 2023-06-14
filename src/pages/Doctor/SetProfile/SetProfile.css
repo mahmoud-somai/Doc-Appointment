@@ -1,0 +1,81 @@
+.setting_parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .setting_div1 { grid-area: 1 / 2 / 5 / 4; }
+    .setting_form {
+        display: flex;
+        flex-direction: column;
+
+      }
+
+.setting_card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background-color: #ccc;
+  }
+  
+  .setting_card-header {
+    background-color: #333;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .setting_card-header .setting_text-header {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .setting_card-body {
+    padding: 16px;
+  }
+  
+  .setting_form-group {
+    margin-bottom: 10px;
+  }
+  
+  .setting_form-group .setting_label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1px;
+  }
+  
+  .setting_form-group>input[type="text"],
+  .setting_form-group>input[type="email"],
+  .setting_form-group>input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .setting_btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    width: 97%;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    
+  }
+  
+  .setting_btn:hover {
+    background-color: rgb(88, 140, 222);
+    color: #333;
+    
+  }

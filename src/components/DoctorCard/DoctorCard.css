@@ -1,0 +1,98 @@
+.book {
+  position: relative;
+  border-radius: 10px;
+  width: 220px;
+  height: 300px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+ 
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  
+  color: #000;
+
+  
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-75deg);
+  -ms-transform: rotatey(-75deg);
+  transform: rotatey(-75deg);
+}
+
+.cover>img{
+  height:180px;
+  width: 190px;
+}
+.pbook1{
+font-size: 20px;
+padding-left: 35%;
+width:80px;
+font-weight: bolder;
+ }
+.pbook{
+ font-size: 20px;
+ padding-top: 70% ;
+ font-weight: bolder;
+ padding-left: 35%;
+}
+
+.spec_doc {
+  /* Styles for the specialty */
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.spec_doc-bottom {
+  position: absolute;
+  bottom: 10px; /* Position it at the bottom */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center the text horizontally */
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}

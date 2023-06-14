@@ -1,0 +1,13 @@
+.pa {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .d1 { grid-area: 1 / 1 / 6 / 3; }
+    .d2 { grid-area: 1 / 4 / 6 / 10; }
+    .d2{  display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;}
